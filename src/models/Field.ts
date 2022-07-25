@@ -41,6 +41,9 @@ export class Field {
             [y1, y2] = y1 > y2 ? [y2, y1] : [y1, y2];
             [y3, y4] = y3 > y4 ? [y4, y3] : [y3, y4];
 
+
+            if (y1 > y || y2 < y ||
+                y3 > y || y4 < y) return [...accumulator]
             if (x1 > x || x2 < x ||
                 x3 > x || x4 < x) return [...accumulator]
 
