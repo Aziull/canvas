@@ -2,7 +2,7 @@
   "name": "canvas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Aziull.github.io/canvas",
+  "homepage": "https://aziull.github.io/canvas",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
